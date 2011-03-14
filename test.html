@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 	
+<style>
+body, html {
+	font-family: sans-serif;
+	font-size:110%;
+}
+input, textarea {
+	font-size:110%;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<script src="jquery.pinyin.js" type="text/javascript"  charset="utf-8"></script>
+<script>
+$(function() {
+	$('input[type=text], textarea').enable_pinyin_input();
+});
+
+</script>
+
+</head>
+<body>
+
+<h3>sample area</h3>
+<input type="text" style="width:20em"></input>
+
+<h3>sample textarea</h3>
+<textarea></textarea>
+	
+</body>
